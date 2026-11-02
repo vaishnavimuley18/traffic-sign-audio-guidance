@@ -1,0 +1,20 @@
+# Environments
+venv/
+.venv/
+.venv*/
+.env
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Raw datasets (keep repository lightweight; dataset generated via src/dataset.py or downloaded)
+data/
+
+# Temporary generated outputs & debug artifacts
+outputs/tmp*.wav
+outputs/detected_crops/
+outputs/detection_debug.jpg
+outputs/real_sign_*.wav
+outputs/real_stop_*.wav
